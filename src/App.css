@@ -16,6 +16,9 @@
 }
 
 .calc-body {
+   border-radius: 22px;
+   background: #3c4857;
+   padding-bottom: 8px;
    width: 100%;
    max-width: 400px;
    margin: auto;
@@ -26,8 +29,9 @@
 
 .calc-screen {
    background: #3a4655;
+   border-radius: 22px 22px 0 0;
    width: 100%;
-   height: 150px;
+   height: 180px;
    padding: 20px;
 }
 
@@ -35,12 +39,12 @@
    text-align: right;
    color: #727b86;
    font-size: 21px;
-   padding-bottom: 10px;
+   padding-bottom: 16px;
    border-bottom: dotted 1px;
 }
 
 .calc-typed {
-   margin-top: 20px;
+   margin-top: 55px;
    font-size: 45px;
    text-align: right;
    color: #fff;
@@ -63,11 +67,13 @@
 
 .calc-button-row {
    width: 100%;
-   background: #3c4857;
+   padding-bottom: 5px;
 }
 
 .button {
    width: 24.5%;
+   border-radius: 25px;
+   box-shadow: inset 5px 5px 4px #323c4a, inset -5px -5px 4px #53647b;
    height: 100px;
    background: #425062;
    color: #fff;
@@ -76,7 +82,7 @@
    font-size: 25px;
    text-align: center;
    vertical-align: middle;
-   margin-right: -4px;
+   /* margin-right:  */
    border-right: solid 5px #3c4857;
    border-bottom: solid 2px #3c4857;
    transition: all 0.2s ease-in-out;
@@ -84,12 +90,12 @@
 
 .button.l {
    color: #aeb3ba;
-   background: #404d5e;
+   background: #3b516c;
 }
 
 .button.c {
    color: #d95d4e;
-   background: #404d5e;
+   background: #3b516c;
 }
 
 .button:hover {
@@ -108,11 +114,11 @@
 }
 
 .attribution {
-	font-size: 11px;
-	color: #d21a0a;
-	text-align: center;
-	padding: 4rem 0 0em;
+   font-size: 11px;
+   color: #d21a0a;
+   text-align: center;
+   padding: 4rem 0 0em;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+   color: hsl(228, 45%, 44%);
 }
