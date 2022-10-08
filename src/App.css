@@ -106,3 +106,13 @@
 .blink-me {
    color: #e0b612;
 }
+
+.attribution {
+	font-size: 11px;
+	color: #d21a0a;
+	text-align: center;
+	padding: 4rem 0 0em;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
