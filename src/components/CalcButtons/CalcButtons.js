@@ -41,7 +41,12 @@ const CalcButtons = ( props ) => {
             <CalcInput class="" text={asset.operator[4]} />
             <CalcInput class="" text={asset.value[0]} />
             <CalcButton class="" text={asset.text[3]} />
-            <input type="button" className="button l" value="=" onClick={ context.setResult } />
+            <input
+               type="button"
+               className="button l"
+               value="="
+               onClick= {context.setFinal}
+            />
          </div>
       </React.Fragment>
    );

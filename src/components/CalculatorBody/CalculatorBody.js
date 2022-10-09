@@ -22,8 +22,14 @@ const CalculatorBody = () => {
       setResult(0);
    }
 
+   const setFinalHandler = () => {
+      context.operation = context.result;
+      setOperation(context.result);
+   }
+
    context.setScreen = setScreenHandler;
    context.setResult = setResultHandler;
+   context.setFinal = setFinalHandler;
    context.clearScreen = clearScreenHandler;
    return (
       <form className="calc-body">

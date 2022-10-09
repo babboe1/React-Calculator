@@ -7,6 +7,7 @@ const CalcInput = ( props ) => {
       
       context.operation += e.target.value;
       context.setScreen();
+      context.setResult();
       if ( [ '+', '-', '/', '*' ].includes( e.target.value ) ) {
       } 
    };
