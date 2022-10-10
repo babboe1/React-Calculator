@@ -14,7 +14,7 @@ const CalculatorBody = () => {
    const setResultHandler = () => {
       // eslint-disable-next-line no-eval
       context.result = eval( context.operation );
-      setResult(context.result.toFixed(2));
+      setResult(context.result);
    };
 
    const clearScreenHandler = () => {

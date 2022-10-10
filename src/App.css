@@ -35,6 +35,18 @@
    padding: 20px;
 }
 
+.calc-typed,
+.calc-operation {
+   overflow-x: scroll;
+   overflow-y: hidden;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+.calc-typed::-webkit-scrollbar,
+.calc-operation::-webkit-scrollbar {
+   display: none;
+}
+
 .calc-operation {
    text-align: right;
    color: #727b86;
